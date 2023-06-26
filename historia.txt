@@ -1,0 +1,4 @@
+Hola
+Me llamo Ricardo Ruiz
+Estoy estudiando el curso profesional de Git y GitHub de Platzi
+Los TQM
