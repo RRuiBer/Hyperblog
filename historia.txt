@@ -8,3 +8,7 @@ Me gustaria escribir aspectos emoconales de mi vida, aunque tal vez este documen
 Clase (9)
 git add . 	guarda los ambios en git (creo)
 poner commits sino git manda una alerta
+Para salir de la alerta:
+  Ctrl + o
+  Enter
+  Ctrl + x
