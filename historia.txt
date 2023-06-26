@@ -12,3 +12,4 @@ Para salir de la alerta:
   Ctrl + o
   Enter
   Ctrl + x
+git diff <codigo commit> <codigo commit>  (muestra las diferencias editadas entre una versión y otra)
