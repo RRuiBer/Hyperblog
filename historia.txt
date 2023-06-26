@@ -2,3 +2,5 @@ Hola
 Me llamo Ricardo Ruiz
 Estoy estudiando el curso profesional de Git y GitHub de Platzi
 Los TQM
+
+Me gustaria escribir aspectos emoconales de mi vida, aunque tal vez este documento será solo para estudiar y de uso profecional.
