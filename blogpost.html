@@ -43,7 +43,11 @@
                 <h1>Git Clean (clase 37)</h1>
                 <p>Git Clean: limpia tu proyecto de archivos no deseados.</p>
                 <h1>Git cherry-pick (clase 38)</h1>
-                <p>Este comando permite coger uno o varios commits de otra rama sin tener que hacer un merge completo.</p>                
+                <p>Este comando permite coger uno o varios commits de otra rama sin tener que hacer un merge completo.</p>
+                <p>En una rama distinta a la principal, después de haber creado uno o mas cambios con sus respectivos commits, podemos llevar alguno de los cambios a la rama principal mediante el hash del commit que queremos llevar a la rama principal.</p>
+                <p>Estando en la rama principal:</p>
+                <p>- git cherry-pick -hash del commit que queremos agregar a main-</p>
+                <p>Si posterior al cherry-pick queremos hacer un merge a la rama principal podemos generar un conflicto. Para solucionarlo, aceptamos los cambios de nuestro interés y los guardamos con un nuevo commit.</p>
             </div>
         </div>
     </body>
