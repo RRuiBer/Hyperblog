@@ -24,7 +24,7 @@
                 <p>En la carpeta del proyecto crear un archivo de texto que se llame '.gitignore'</p>
                 <p>En el archivo de texto '*.'extención', ignora los achivos con una extención determinda.</p>
                 <h1>Git Rebase:</h1>
-                <p>Rebase reescribe la historia del repositorio; cambia la historia de donde comenzó la rama. Hacer un rebase no es una buena practica y se recomienda usar solo en un repositorio local.</p>
+                <p>Rebase reescribe la historia del repositorio; cambia la historia de donde comenzó la rama. Hacer un rebase no es una buena práctica y se recomienda usar solo en un repositorio local.</p>
                 <p>Rebase sirve también para cambiar la historia de nuestros commits en la misma rama, si tienen muchos commits con cambios pequeños estos se pueden unificar para hacer que su log se vea mas limpio.</p>
                 <p>Pasos para aplicar un rebase:</p>
                 <p>- Crear una nueva ramaa: git branch experimento</p>
@@ -54,12 +54,19 @@
                 <p>Supongamos que tenemos cambios indeseados o que se realizaron por error, además estos cambios ya tuvieron su respectivo commit.</p>
                 <p>- git reset --soft -nuero de hash-: restaura el repo al estado del hash referenciado y mantiene los cambios removidos en stagin.</p>
                 <p>- git reset --hard -nuero de hash-: restaura el repo al estado del hash referenciado y elimina totalmente los cambios que no eran deseados.</p>
-                <p>Git reset es una mala practica. Usar solo en caso en que haya que restaurar el repositorio debido a fallas graves.</p>
+                <p>Git reset es una mala práctica. Usar solo en caso en que haya que restaurar el repositorio debido a fallas graves.</p>
                 <h1>Recounstuir commits en Git con amend (clase 40)</h1>
                 <p>Remendar un commit: puede modificar el commit más reciente (enmendar) en la misma rama ejecutando:</p>
                 <p>- git add -A: Este comando sirve para agregar archivos nuevos o actualizar el commit anterior y no generar commits innecesarios. También es una forma sencilla de editar o agregar comentarios al commit anterior porque abrirá la consola para editar el commit anterior.</p>
                 <p>Para hacer uso de ammend los archivos deben de estar en staging</p>
-                <p>- git commit --amend: Remendar último commit</p>                
+                <p>- git commit --amend: Remendar último commit</p>  
+                <h1>Buscar en archivos y commits de Git con grep y log</h1>     
+                <p>- git grep -palabra-: busca las coincidencias de la palabra en el repositorio.</p>
+                <p>- git grep -n -palabra-: busca las coincidencias de la palabra en el repositorio e indica el numero de la línea donde aparece la palabra.</p>
+                <p>- git grep -c -palabra-: muestra el número de veces que aparece la palabra en el repositorio</p>
+                <p>- git grep -c "&lt;p&gt;": muestra el número de veces que aparece la sentencia en el repositorio (usar comillas para buscar partes de código).</p>
+                <p>- git log -S "-palabra-": muesta los commits donde apararece la palabra buscada en las comillas.</p>
+                <p>Usar grep para los archivos y log para los commits.</p>         
             </div>
         </div>
     </body>
