@@ -1,57 +1,128 @@
-    <html>
+<html>
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8" />
         <title>Bienvenido a Hyperblog recargado</title>
         <link rel="stylesheet" href="css/estilos.css" />
     </head>
     <body>
         <div id="container">
             <div id="cabecera">
-                <img id="logo" src="imagenes/dragon.png">
+                <img id="logo" src="imagenes/dragon.png" />
                 Hyperblog
                 <span id="tagline">Tu blog de cabecera</span>
             </div>
             <div id="post">
-                <p style="text-align: center;"><img src="https://i.imgur.com/dy2uNAS.png" width="30%" title="git meme"/><p>
+                <p style="text-align: center">
+                    <img src="https://i.imgur.com/dy2uNAS.png" width="30%" title="git meme" />
+                </p>
+                <p></p>
                 <h1>Aquí haremos el blogpost interesante y atractivo</h1>
                 <p>Este es el párrafo de inicio de este proyecto.</p>
                 <h2>Git (Clase 1)</h2>
-                <p>Un sistema de control de versiones como Git nos ayuda a guardar el historial de cambios y crecimiento de los archivos de nuestro proyecto.</p>
-                <p>En realidad, los cambios y diferencias entre las versiones de nuestros proyectos pueden tener similitudes, algunas veces los cambios pueden ser solo una palabra o una parte específica de un archivo específico. Git está optimizado para guardar todos estos cambios de forma atómica e incremental, o sea, aplicando cambios sobre los últimos cambios, estos sobre los cambios anteriores y así hasta el inicio de nuestro proyecto.</p>
-                <h1>Git Bash en Windos (Clase 3)</h1>
-                <p>Al implementar Git Bash, podrás tener una terminal de Git en el sistema operativo Windows. Esto te ayudará a acceder a tus repositorios al conectarte desde GitHub.</p>
-                <p>Git Bash es una aplicación en línea que une las utilidades de Git y Bash en un sistema operativo de Windows. Mejora la experiencia de la línea de comandos y se comporta como una especie de intérprete para un sistema operativo Unix, pero adaptado para funcionar en Windows.</p>
-                <p>Además, el programa permite a los usuarios acceder a las herramientas de Git, incluyendo la versión, y realizar tareas de control de versiones a través de comandos de texto en lugar de una interfaz gráfica de usuario. También incluye otros comandos de Unix y herramientas como ssh , scp y rsync.</p>
+                <p>
+                    Un sistema de control de versiones como Git nos ayuda a guardar el historial de cambios y
+                    crecimiento de los archivos de nuestro proyecto.
+                </p>
+                <p>
+                    En realidad, los cambios y diferencias entre las versiones de nuestros proyectos pueden tener
+                    similitudes, algunas veces los cambios pueden ser solo una palabra o una parte específica de un
+                    archivo específico. Git está optimizado para guardar todos estos cambios de forma atómica e
+                    incremental, o sea, aplicando cambios sobre los últimos cambios, estos sobre los cambios anteriores
+                    y así hasta el inicio de nuestro proyecto.
+                </p>
+                <h1>Git Bash en Windows (Clase 3)</h1>
+                <p>
+                    Al implementar Git Bash, podrás tener una terminal de Git en el sistema operativo Windows. Esto te
+                    ayudará a acceder a tus repositorios al conectarte desde GitHub.
+                </p>
+                <p>
+                    Git Bash es una aplicación en línea que une las utilidades de Git y Bash en un sistema operativo de
+                    Windows. Mejora la experiencia de la línea de comandos y se comporta como una especie de intérprete
+                    para un sistema operativo Unix, pero adaptado para funcionar en Windows.
+                </p>
+                <p>
+                    Además, el programa permite a los usuarios acceder a las herramientas de Git, incluyendo la versión,
+                    y realizar tareas de control de versiones a través de comandos de texto en lugar de una interfaz
+                    gráfica de usuario. También incluye otros comandos de Unix y herramientas como ssh , scp y rsync.
+                </p>
                 <h1>Instalar Git en Ubuntu (clase 5)</h1>
                 <p>Se recomienda primero hacer update y upgrade.</p>
                 <p>- sudo apt update: descarga las actualizaciones.</p>
                 <p>- sudo apt upgrade: aplica las actualizaciones.</p>
                 <p>- sudo apt install git: instala git.</p>
                 <p>- git: muestra la lista de comandos de git.</p>
-                <p>- git --version: muesta la versión de gir instalada.</p>
+                <p>- git --version: muestra la versión de Git instalada.</p>
+                <h1>Tu primer push (Clase 22)</h1>
+                <p>- git remote add origin -dirección_del_repositorio_remoto-: Agrega un repositorio remoto.</p>
+                <p>- git remote: muestra si existe un repositorio remoto.</p>
+                <p>- git remote -v: verifica la existencia del origen remoto.</p>
+                <p>
+                    - git push -u origin main: realiza un push (envío) de los cambios locales en la rama "main" a un
+                    repositorio remoto en GitHub (u otro servidor Git) y establecer una relación de seguimiento entre la
+                    rama local y la rama remota.
+                </p>
                 <h1>Pull request (Clase 28)</h1>
-                <p>Es una funcionalidad de github, en la que un colaborador pide que revisen sus cambios antes de hacer merge a una rama, normalmente main.</p>
-                <p>Al hacer un pull request se genera una conversación que pueden seguir los demás usuarios del repositorio, así como autorizar o rechazar los cambios.</p>
+                <p>
+                    Es una funcionalidad de github, en la que un colaborador pide que revisen sus cambios antes de hacer
+                    merge a una rama, normalmente main.
+                </p>
+                <p>
+                    Al hacer un pull request se genera una conversación que pueden seguir los demás usuarios del
+                    repositorio, así como autorizar o rechazar los cambios.
+                </p>
                 <h1>Crear un Fork (Clase 29)</h1>
-                <p>Los forks o bifurcaciones son una característica única de GitHub en la que se crea una copia exacta del estado actual de un repositorio directamente en GitHub. Este repositorio podrá servir como otro origen y se podrá clonar (como cualquier otro repositorio).</p>
+                <p>
+                    Los forks o bifurcaciones son una característica única de GitHub en la que se crea una copia exacta
+                    del estado actual de un repositorio directamente en GitHub. Este repositorio podrá servir como otro
+                    origen y se podrá clonar (como cualquier otro repositorio).
+                </p>
                 <p>Realizar Fork desde el repositorio de nuestro interés en GitHub.</p>
-                <p>Ejemplo y recomendación: <a href="https://github.com/mouredev/retos-programacion-2023/tree/main"> Retos Mouredev 2023.</a></p>
-                <p>Para llevar el repositorio de GitHub a nuestro entorno local: clonar el repositorio copiando el enlace en la sección -&lt; &gt; code-.</p>
+                <p>
+                    Ejemplo y recomendación:
+                    <a href="https://github.com/mouredev/retos-programacion-2023/tree/main"> Retos Mouredev 2023.</a>
+                </p>
+                <p>
+                    Para llevar el repositorio de GitHub a nuestro entorno local: clonar el repositorio copiando el
+                    enlace en la sección -&lt; &gt; code-.
+                </p>
                 <p>En nuestra terminal escribimos el comando:</p>
-                <p>- git clone -direccón del repositorio que se le hizo fork-: trae los archivos del repositorio al entorno local.</p>
+                <p>
+                    - git clone -dirección del repositorio que se le hizo fork-: trae los archivos del repositorio al
+                    entorno local.
+                </p>
                 <h1>Git ignore:</h1>
                 <p>En la carpeta del proyecto crear un archivo de texto que se llame '.gitignore'</p>
-                <p>En el archivo de texto '*.'extención', ignora los achivos con una extención determinda.</p>
+                <p>En el archivo de texto '*.'extensión', ignora los archivos con una extensión determinada.</p>
                 <h1>Git Rebase:</h1>
-                <p>Rebase reescribe la historia del repositorio; cambia la historia de donde comenzó la rama. Hacer un rebase no es una buena práctica y se recomienda usar solo en un repositorio local.</p>
-                <p>Rebase sirve también para cambiar la historia de nuestros commits en la misma rama, si tienen muchos commits con cambios pequeños estos se pueden unificar para hacer que su log se vea mas limpio.</p>
+                <p>
+                    Rebase reescribe la historia del repositorio; cambia la historia de donde comenzó la rama. Hacer un
+                    rebase no es una buena práctica y se recomienda usar solo en un repositorio local.
+                </p>
+                <p>
+                    Rebase sirve también para cambiar la historia de nuestros commits en la misma rama, si tienen muchos
+                    commits con cambios pequeños estos se pueden unificar para hacer que su log se vea mas limpio.
+                </p>
                 <p>Pasos para aplicar un rebase:</p>
-                <p>- Crear una nueva ramaa: git branch experimento</p>
+                <p>- Crear una nueva rama: git branch experimento</p>
                 <p>- Hacer checkout a la nueva rama: git checkout experimento</p>
-                <p>- Una vez realizados los cambios en el repositorio, guardarlos con un nuevo commit: git commit -am "Agregué información sobre el rebase".</p>
-                <p>- Si queremos juntar  las ramas como si la rama experimental no hubiera existido y que lo cambios realizados queden en la rama principal. Estando en la rama 'experimento' aplicamos el rebase: git rebase main.</p>
-                <p style="text-align: center;"><img src="https://i.imgur.com/HfRww0A.png" width="45%" title="rebase"/><p>
-                <p>Nunca debes reorganizar las confirmaciones una vez que se hayan enviado a un repositorio público. La reorganización sustituiría las confirmaciones antiguas por las nuevas y parecería que esa parte del historial de tu proyecto se hubiera desvanecido de repente.</p>
+                <p>
+                    - Una vez realizados los cambios en el repositorio, guardarlos con un nuevo commit: git commit -am
+                    "Agregué información sobre el rebase".
+                </p>
+                <p>
+                    - Si queremos juntar las ramas como si la rama experimental no hubiera existido y que lo cambios
+                    realizados queden en la rama principal. Estando en la rama 'experimento' aplicamos el rebase: git
+                    rebase main.
+                </p>
+                <p style="text-align: center">
+                    <img src="https://i.imgur.com/HfRww0A.png" width="45%" title="rebase" />
+                </p>
+                <p></p>
+                <p>
+                    Nunca debes reorganizar las confirmaciones una vez que se hayan enviado a un repositorio público. La
+                    reorganización sustituiría las confirmaciones antiguas por las nuevas y parecería que esa parte del
+                    historial de tu proyecto se hubiera desvanecido de repente.
+                </p>
                 <h1>Git Stash (clase 36)</h1>
                 <p>- git stash : Guarda el trabajo actual de manera temporal (Archivos modificados o eliminados).</p>
                 <p>Al ejecutar la sentencia: git stash, se regresa al estado anterior del proyecto.</p>
@@ -62,41 +133,98 @@
                 <h1>Git Clean (clase 37)</h1>
                 <p>Git Clean: limpia tu proyecto de archivos no deseados.</p>
                 <h1>Git cherry-pick (clase 38)</h1>
-                <p>Este comando permite llevar uno o varios commits de una rama a otra sin tener que hacer un merge completo.</p>
-                <p>En una rama distinta a la principal, después de haber creado uno o mas cambios con sus respectivos commits, podemos llevar alguno de los cambios a otra rama mediante el hash del commit.</p>
+                <p>
+                    Este comando permite llevar uno o varios commits de una rama a otra sin tener que hacer un merge
+                    completo.
+                </p>
+                <p>
+                    En una rama distinta a la principal, después de haber creado uno o mas cambios con sus respectivos
+                    commits, podemos llevar alguno de los cambios a otra rama mediante el hash del commit.
+                </p>
                 <p>Estando en la rama principal:</p>
                 <p>- git cherry-pick -hash del commit que queremos agregar a main-</p>
-                <p>Si posterior al cherry-pick queremos hacer un merge a la rama principal podemos generar un conflicto. Para solucionarlo, aceptamos los cambios de nuestro interés y los guardamos con un nuevo commit.</p>
-                <p>Aunque cherry-pick es útil y se puede aplicar en ramas distintas a la principal, utilizar esta función se considera una mala práctica.</p>
+                <p>
+                    Si posterior al cherry-pick queremos hacer un merge a la rama principal podemos generar un
+                    conflicto. Para solucionarlo, aceptamos los cambios de nuestro interés y los guardamos con un nuevo
+                    commit.
+                </p>
+                <p>
+                    Aunque cherry-pick es útil y se puede aplicar en ramas distintas a la principal, utilizar esta
+                    función se considera una mala práctica.
+                </p>
                 <h1>Git reset y reflog (clase 39)</h1>
-                <p>- git reflog: muestra el hash y head de todos los cambios, incluso de ramas que han sido borradas.</p>
-                <p>Supongamos que tenemos cambios indeseados o que se realizaron por error, además estos cambios ya tuvieron su respectivo commit.</p>
-                <p>- git reset --soft -nuero de hash-: restaura el repo al estado del hash referenciado y mantiene los cambios removidos en stagin.</p>
-                <p>- git reset --hard -nuero de hash-: restaura el repo al estado del hash referenciado y elimina totalmente los cambios que no eran deseados.</p>
-                <p>Git reset es una mala práctica. Usar solo en caso en que haya que restaurar el repositorio debido a fallas graves.</p>
+                <p>
+                    - git reflog: muestra el hash y head de todos los cambios, incluso de ramas que han sido borradas.
+                </p>
+                <p>
+                    Supongamos que tenemos cambios indeseados o que se realizaron por error, además estos cambios ya
+                    tuvieron su respectivo commit.
+                </p>
+                <p>
+                    - git reset --soft -nuero de hash-: restaura el repo al estado del hash referenciado y mantiene los
+                    cambios removidos en stagin.
+                </p>
+                <p>
+                    - git reset --hard -nuero de hash-: restaura el repo al estado del hash referenciado y elimina
+                    totalmente los cambios que no eran deseados.
+                </p>
+                <p>
+                    Git reset es una mala práctica. Usar solo en caso en que haya que restaurar el repositorio debido a
+                    fallas graves.
+                </p>
                 <h1>Recounstuir commits en Git con amend (clase 40)</h1>
-                <p>Remendar un commit: puede modificar el commit más reciente (enmendar) en la misma rama ejecutando:</p>
-                <p>- git add -A: Este comando sirve para agregar archivos nuevos o actualizar el commit anterior y no generar commits innecesarios. También es una forma sencilla de editar o agregar comentarios al commit anterior porque abrirá la consola para editar el commit anterior.</p>
+                <p>
+                    Remendar un commit: puede modificar el commit más reciente (enmendar) en la misma rama ejecutando:
+                </p>
+                <p>
+                    - git add -A: Este comando sirve para agregar archivos nuevos o actualizar el commit anterior y no
+                    generar commits innecesarios. También es una forma sencilla de editar o agregar comentarios al
+                    commit anterior porque abrirá la consola para editar el commit anterior.
+                </p>
                 <p>Para hacer uso de ammend los archivos deben de estar en staging</p>
-                <p>- git commit --amend: Remendar último commit</p>  
-                <h1>Buscar en archivos y commits de Git con grep y log (clase 41)</h1>     
+                <p>- git commit --amend: Remendar último commit</p>
+                <h1>Buscar en archivos y commits de Git con grep y log (clase 41)</h1>
                 <p>- git grep -palabra-: busca las coincidencias de la palabra en el repositorio.</p>
-                <p>- git grep -n -palabra-: busca las coincidencias de la palabra en el repositorio e indica el numero de la línea donde aparece la palabra.</p>
+                <p>
+                    - git grep -n -palabra-: busca las coincidencias de la palabra en el repositorio e indica el numero
+                    de la línea donde aparece la palabra.
+                </p>
                 <p>- git grep -c -palabra-: muestra el número de veces que aparece la palabra en el repositorio</p>
-                <p>- git grep -c "&lt;p&gt;": muestra el número de veces que aparece la sentencia en el repositorio (usar comillas para buscar partes de código).</p>
+                <p>
+                    - git grep -c "&lt;p&gt;": muestra el número de veces que aparece la sentencia en el repositorio
+                    (usar comillas para buscar partes de código).
+                </p>
                 <p>- git log -S "-palabra-": muesta los commits donde apararece la palabra buscada en las comillas.</p>
                 <p>Usar grep para los archivos y log para los commits.</p>
-                <h1>Comandos y recursos colaborativos en Git y GitHub (Clase 42) </h1>
+                <h1>Comandos y recursos colaborativos en Git y GitHub (Clase 42)</h1>
                 <p>- git shortlog: muesta los commits de cada usuario.</p>
                 <p>- git shortlog -sn: muestra el número de comits que realizó cada usuario.</p>
-                <p>- git shortlog -sn --all: muestra el número total de commits de cada ususario, incluso los borrados.</p>
-                <p>- git shortlog -sn --all --no-merges: muestra el número de commits de cada usuario exluyendo los commits de los merges.</p>
-                <p>- git config --global alias.-nomre del alias- "-comando que se le quiere poner alias-": asigna un alias a un comando de git.</p>
-                <p>- git blame -archivo a explorar-: para cada línea del archivo explorado muestra; muesta hash, usuario que realizó el commit, fecha y hora, número de línea y contenido de la línea.</p>
+                <p>
+                    - git shortlog -sn --all: muestra el número total de commits de cada ususario, incluso los borrados.
+                </p>
+                <p>
+                    - git shortlog -sn --all --no-merges: muestra el número de commits de cada usuario exluyendo los
+                    commits de los merges.
+                </p>
+                <p>
+                    - git config --global alias.-nomre del alias- "-comando que se le quiere poner alias-": asigna un
+                    alias a un comando de git.
+                </p>
+                <p>
+                    - git blame -archivo a explorar-: para cada línea del archivo explorado muestra; muesta hash,
+                    usuario que realizó el commit, fecha y hora, número de línea y contenido de la línea.
+                </p>
                 <p>- git blame -c -archivo a explorar-: aplica identación en el comando anterior.</p>
                 <p>- git -comando de git- --help: muesta la documentación de git con la información del comando.</p>
-                <p>- git blame -archivo a explorar- -L-numero de línea-,-numero de línea-: las lineas referenciadas del archivo a explorar muestra; muesta hash, usuario que realizó el commit, fecha y hora, número de línea y contenido de la línea.</p>
-                <p>- git blame -archivo a explorar- -L-numero de línea-,-numero de línea- -c: aplica identación en el comando anterior.</p>
+                <p>
+                    - git blame -archivo a explorar- -L-numero de línea-,-numero de línea-: las lineas referenciadas del
+                    archivo a explorar muestra; muesta hash, usuario que realizó el commit, fecha y hora, número de
+                    línea y contenido de la línea.
+                </p>
+                <p>
+                    - git blame -archivo a explorar- -L-numero de línea-,-numero de línea- -c: aplica identación en el
+                    comando anterior.
+                </p>
                 <p>- git branch -r: muestra las ramas en el repositorio remoto.</p>
                 <p>- git branch -a: muestra tanto ramas locales como remotas.</p>
             </div>
